@@ -42,6 +42,11 @@ class OrganismSideNav extends React.Component {
 							</Link>
 						</Menu.Item>
 					</Menu.SubMenu>
+					<Menu.Item key="4">
+						<Link href="/request-sample">
+							<a>Request Sample Page</a>
+						</Link>
+					</Menu.Item>
 				</Menu>
 			</Layout.Sider>
 		);
